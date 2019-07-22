@@ -33,7 +33,7 @@ export default {
   methods: {
     evaluate: function(){
       axios
-      .get('http://52.193.251.60/api/questions/?format=json')
+      .get('https://quesgen.work/api/questions/?format=json')
       .then(response => (this.results = response.data))
     }
   }
